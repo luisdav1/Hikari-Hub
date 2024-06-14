@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+:root {
+  background-color: black;
+}
+
+.card {
+transition: transform 0.2s ease-in-out;
+    /* Transición suave para el zoom */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Escala la tarjeta a un 5% más grande al hacer hover */
+}
+
+
+
